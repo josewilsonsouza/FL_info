@@ -25,3 +25,13 @@ Reune diversos links de sites/cursos/artigos/ferramentas/produtos sobre aprendiz
 
 ### TUTORIAIS
 * [Aprendizagem federada com o Google](https://federated.withgoogle.com/). Bastante importante para entender FL e ver o ínicio de tudo. É principal tutorial da área.
+ 
+
+### História
+O campo do Aprendizado Federado foi formalmente estabelecido e popularizado pelo artigo seminal "[Communication-Efficient Learning of Deep Networks from Decentralized Data](https://arxiv.org/abs/1602.05629)".  Publicado em 2017 por H. Brendan McMahan e uma equipe de pesquisadores, o trabalho delineou as bases conceituais e algorítmicas que definiriam a pesquisa e o desenvolvimento subsequentes. O artigo propôs o FL como uma abordagem para treinar modelos em redes de dispositivos móveis, deixando os dados de treinamento distribuídos e aprendendo um modelo compartilhado pela agregação iterativa de atualizações computadas localmente.
+
+Em resposta às limitações do FedAvg em ambientes non-IID, foi proposto o Federated Proximal (FedProx). O artigo [Federated Optimization for Heterogeneous Networks](https://anitksahu.github.io/FedProx.pdf) de [Li et al., 2018](https://anitksahu.github.io/FedProx.pdf), introduziu o FedProx como uma generalização e uma re-parametrização do FedAvg, especificamente projetada para lidar com a heterogeneidade estatística e de sistema. O mecanismo central do FedProx é a adição de um termo de regularização proximal à função de perda de cada cliente. Esse termo, que geralmente utiliza a norma $L_2$, restringe o quão longe as atualizações do modelo local podem se desviar do modelo global atual. Matematicamente, a função objetivo local de um cliente $k$ é modificada para incluir a regularização, minimizando:
+
+$$ \min_w \; f_k(w) + \frac{\mu}{2} \lVert w - w_t \rVert^2 $$
+
+onde $f_k(w)$ é a função de perda local, $w_t$ é o modelo global da rodada $t$, e $\mu$ é o parâmetro de regularização. Esse termo de penalidade garante que as atualizações locais permaneçam "próximas" do modelo global, controlando o "client drift" e melhorando a robustez e a estabilidade da convergência em redes com dados heterogêneos. Em um estudo comparativo, o FedProx demonstrou uma precisão superior de 86.5% e convergiu em 85 rodadas, superando o FedAvg e oferecendo um equilíbrio eficaz entre desempenho e estabilidade.
