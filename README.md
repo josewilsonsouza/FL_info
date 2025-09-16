@@ -10,10 +10,17 @@ Reune diversos links de sites/cursos/artigos/ferramentas/produtos sobre aprendiz
 
 ### FRAMEWORKS/REPOS
 * [Awesome Federated Machine Learning Public](https://github.com/innovation-cat/Awesome-Federated-Machine-Learning). Tudo sobre FL em videos, tutoriais, artigos, conferencias, códigos.
+  
+* [Awesome Healthcare Federated Learning](https://github.com/monk1337/Aweome-Heathcare-Federated-Learning?tab=readme-ov-file). Destaca alguns links de tutoriais, artigos e frameworks relevantes na área de FL, em especial para a area da saúde, mas que também se direciona para novas aplicações.
+  
 * [FATE-Uma estrutura de aprendizagem federada de nível industrial](https://github.com/FederatedAI/FATE). O FATE (Federated AI Technology Enabler) é o primeiro framework de código aberto para aprendizagem federada de nível industrial do mundo, que permite que empresas e instituições colaborem em dados, protegendo a segurança e a privacidade dos dados. Ele implementa protocolos de computação seguros baseados em criptografia homomórfica e computação multipartidária (MPC).
+  
 * [Flower - Uma estrutura de aprendizagem federada amigável](https://github.com/adap/flower). Flower ( flwr) é uma estrutura para a construção de sistemas de IA federados.
+  
 * [PySift](https://github.com/OpenMined/PySyft). Executar ciência de dados em dados que permanecem no servidor de outra pessoa.
+  
 * [Tensorflow Federado](https://github.com/google-parfait/tensorflow-federated). O TensorFlow Federated (TFF) é um framework de código aberto para aprendizado de máquina e outras computações em dados descentralizados. O TFF foi desenvolvido para facilitar a pesquisa e a experimentação abertas com Aprendizado Federado (FL) , uma abordagem de aprendizado de máquina em que um modelo global compartilhado é treinado por vários clientes participantes que mantêm seus dados de treinamento localmente. Por exemplo, o FL tem sido usado para treinar modelos de previsão para teclados móveis sem a necessidade de enviar dados confidenciais de digitação para servidores.
+  
 * [FEDn](https://www.scaleoutsystems.com/framework). O FEDn é uma plataforma de aprendizado federado pronta para produção que permite que organizações treinem modelos de ML de forma colaborativa, mantendo dados confidenciais seguros e locais. Seja explorando o aprendizado federado ou escalando implantações de produção, o FEDn integra-se perfeitamente aos seus fluxos de trabalho de ML existentes, com opções de implantação flexíveis e controles de segurança rigorosos.
 
 ### TUTORIAIS
