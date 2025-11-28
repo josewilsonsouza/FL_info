@@ -1,5 +1,5 @@
 # FL_info
-Reune diversos links de sites/cursos/artigos/ferramentas/produtos sobre aprendizado federado relevantes para o projeto fl_project.
+Reune diversos links de sites/cursos/artigos/ferramentas/produtos sobre aprendizado federado relevantes para o projeto [Fleven](https://github.com/josewilsonsouza/fleven).
 
 ### DATASETS
 * [VED -  Vehicular Energy Dataset](https://github.com/gsoh/VED). O VED captura trajetórias de GPS de veículos, juntamente com seus dados de séries temporais de combustível, energia, velocidade e consumo de energia auxiliar, e os dados foram coletados por meio de registradores OBD-II de bordo, de novembro de 2017 a novembro de 2018. A frota é composta por um total de 383 carros particulares (264 veículos a gasolina, 92 HEVs e 27 PHEVs/EVs) em Ann Arbor, Michigan, EUA.
