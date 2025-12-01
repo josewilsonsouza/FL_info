@@ -1,4 +1,4 @@
-# FL_info
+# FLinfo
 Reune diversos links de sites/cursos/artigos/ferramentas/produtos sobre aprendizado federado relevantes para o projeto [Fleven](https://github.com/josewilsonsouza/fleven).
 
 ### DATASETS
@@ -22,6 +22,9 @@ Reune diversos links de sites/cursos/artigos/ferramentas/produtos sobre aprendiz
 * [Tensorflow Federado](https://github.com/google-parfait/tensorflow-federated). O TensorFlow Federated (TFF) é um framework de código aberto para aprendizado de máquina e outras computações em dados descentralizados. O TFF foi desenvolvido para facilitar a pesquisa e a experimentação abertas com Aprendizado Federado (FL) , uma abordagem de aprendizado de máquina em que um modelo global compartilhado é treinado por vários clientes participantes que mantêm seus dados de treinamento localmente. Por exemplo, o FL tem sido usado para treinar modelos de previsão para teclados móveis sem a necessidade de enviar dados confidenciais de digitação para servidores.
   
 * [FEDn](https://www.scaleoutsystems.com/framework). O FEDn é uma plataforma de aprendizado federado pronta para produção que permite que organizações treinem modelos de ML de forma colaborativa, mantendo dados confidenciais seguros e locais. Seja explorando o aprendizado federado ou escalando implantações de produção, o FEDn integra-se perfeitamente aos seus fluxos de trabalho de ML existentes, com opções de implantação flexíveis e controles de segurança rigorosos.
+
+### APRENDIZADO FEDERADO PERSONALIZADO
+* [FL_BENCH](https://github.com/KarhouTam/FL-bench?tab=readme-ov-file). Este repositório reune várias aplicações e os artigos sobre as estratégias (do estado da arte) em PFL
 
 ### TUTORIAIS
 * [Aprendizagem federada com o Google](https://federated.withgoogle.com/). Bastante importante para entender FL e ver o ínicio de tudo. É principal tutorial da área.
